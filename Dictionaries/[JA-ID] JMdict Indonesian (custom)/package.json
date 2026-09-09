@@ -1,0 +1,17 @@
+{
+  "name": "jmdict-id-yomitan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fast-xml-parser": "^5.3.4",
+    "yomichan-dict-builder": "^2.10.0"
+  }
+}
