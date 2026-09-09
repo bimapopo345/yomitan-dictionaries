@@ -21,6 +21,15 @@ pixivSummaries.json
 Cifu-v1.txt
 *.zip
 
+# Bima dictionary collection: keep distributable archives, not local runtime/cache files.
+Dictionaries/.venv-yomitan-id/
+Dictionaries/**/.id_translation_cache.sqlite3
+Dictionaries/**/.id_translation_cache.sqlite3-*
+Dictionaries/**/.id_translation_progress.json
+!Dictionaries/
+!Dictionaries/*.zip
+!Dictionaries/**/*.zip
+
 # MacOS generated files #
 ######################
 .DS_Store
